@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import {
+    OutputComponent,
     ExampleComponent,
 } from './';
 
@@ -16,6 +17,8 @@ import {
     ],
     declarations: [
         ExampleComponent,
+
+        OutputComponent
     ],
     exports: [
         ExampleComponent
