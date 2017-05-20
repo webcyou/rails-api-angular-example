@@ -7,6 +7,7 @@ import { Angular2TokenService, A2tUiModule } from 'angular2-token';
 
 import {
   AppComponent,
+  ExampleModule,
   routes
 } from './';
 
@@ -15,6 +16,7 @@ import {
     routes,
     BrowserModule,
     HttpModule,
+    ExampleModule,
     A2tUiModule
   ],
   providers: [
