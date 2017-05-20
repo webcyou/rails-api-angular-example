@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import {
     OutputComponent,
     ExampleComponent,
+    RegisterComponent,
 } from './';
 
 @NgModule({
@@ -18,7 +19,9 @@ import {
     declarations: [
         ExampleComponent,
 
-        OutputComponent
+        OutputComponent,
+
+        RegisterComponent
     ],
     exports: [
         ExampleComponent
