@@ -8,7 +8,8 @@ import {
     OutputComponent,
     ExampleComponent,
     RegisterComponent,
-    SignInComponent
+    SignInComponent,
+    SignInOAuthComponent
 } from './';
 
 @NgModule({
@@ -23,7 +24,8 @@ import {
         OutputComponent,
 
         RegisterComponent,
-        SignInComponent
+        SignInComponent,
+        SignInOAuthComponent
     ],
     exports: [
         ExampleComponent
