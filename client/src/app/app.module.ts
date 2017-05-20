@@ -3,22 +3,24 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { UserComponent } from './user/user.component';
+import { Angular2TokenService, A2tUiModule } from 'angular2-token';
+
+import {
+  AppComponent,
+  routes
+} from './';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    UserComponent
-  ],
   imports: [
+    routes,
     BrowserModule,
-    FormsModule,
     HttpModule,
-    AppRoutingModule
+    A2tUiModule
   ],
-  providers: [],
+  providers: [
+    Angular2TokenService
+  ],
+  declarations: [ AppComponent ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
