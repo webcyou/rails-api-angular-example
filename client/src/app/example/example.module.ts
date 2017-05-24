@@ -10,6 +10,7 @@ import {
     RegisterComponent,
     SignInComponent,
     SignInOAuthComponent,
+    SignOutComponent,
     ChangePasswordComponent,
     AccessResourceComponent,
     ValidateTokenComponent
@@ -29,6 +30,7 @@ import {
         RegisterComponent,
         SignInComponent,
         SignInOAuthComponent,
+        SignOutComponent,
         ChangePasswordComponent,
         AccessResourceComponent,
         ValidateTokenComponent
