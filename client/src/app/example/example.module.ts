@@ -10,6 +10,7 @@ import {
     RegisterComponent,
     SignInComponent,
     SignInOAuthComponent,
+    ChangePasswordComponent,
     AccessResourceComponent
 } from './';
 
@@ -27,6 +28,7 @@ import {
         RegisterComponent,
         SignInComponent,
         SignInOAuthComponent,
+        ChangePasswordComponent,
         AccessResourceComponent
     ],
     exports: [
