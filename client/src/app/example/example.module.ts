@@ -11,7 +11,8 @@ import {
     SignInComponent,
     SignInOAuthComponent,
     ChangePasswordComponent,
-    AccessResourceComponent
+    AccessResourceComponent,
+    ValidateTokenComponent
 } from './';
 
 @NgModule({
@@ -29,7 +30,8 @@ import {
         SignInComponent,
         SignInOAuthComponent,
         ChangePasswordComponent,
-        AccessResourceComponent
+        AccessResourceComponent,
+        ValidateTokenComponent
     ],
     exports: [
         ExampleComponent
